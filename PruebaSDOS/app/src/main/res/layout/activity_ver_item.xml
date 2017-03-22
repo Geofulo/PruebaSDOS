@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.geoapps.pruebasdos.webservices.VerItemActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_ver_item"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_business"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Business" />
+
+        <TextView
+            android:id="@+id/tv_business_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Category" />
+
+        <TextView
+            android:id="@+id/tv_category_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Count" />
+
+        <TextView
+            android:id="@+id/tv_l_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Phone" />
+
+        <TextView
+            android:id="@+id/tv_phone_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Zipcode" />
+
+        <TextView
+            android:id="@+id/tv_zipcode_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/tv_address_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_coor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Latitud - Longitude" />
+
+        <TextView
+            android:id="@+id/tv_coor_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Website" />
+
+        <TextView
+            android:id="@+id/tv_website_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_farm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Farm Name" />
+
+        <TextView
+            android:id="@+id/tv_farm_name_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_suite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Suite" />
+
+        <TextView
+            android:id="@+id/tv_suite_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
